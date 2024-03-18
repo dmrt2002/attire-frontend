@@ -118,7 +118,7 @@ export default function ProductDetails() {
                                     </h2>
 
                                     <div className="flex items-center">
-                                        <p className="text-lg text-gray-900 sm:text-xl">{product.attributes.price}</p>
+                                        <p className="text-lg text-gray-900 sm:text-xl">₹{product.attributes.price}</p>
 
                                         <div className="ml-4 border-l border-gray-300 pl-4">
                                             <h2 className="sr-only">Reviews</h2>
