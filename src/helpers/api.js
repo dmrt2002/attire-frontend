@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const API_URL = "https://attire-strapi.onrender.com/api"
+// const API_URL = "https://attire-strapi.onrender.com/api"
+const API_URL = "https://attire-strapi-production.up.railway.app/api/"
 
 export const loginUser = async (body) => {
     let res = await axios.post(`${API_URL}/auth`, body)
